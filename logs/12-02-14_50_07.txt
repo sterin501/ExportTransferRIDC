@@ -1,0 +1,671 @@
+Running script at 12-02-14_50_07
+@Properties LocalData
+IdcService=GET_BATCHFILES
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=GET_BATCHFILES
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@ResultSet BatchFiles
+5
+aBatchFile
+aState
+IDC_Name
+aNumDocuments
+aIsTableBatch
+14-dec-02_10.01.55_488_22/FolderFiles_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+3
+1
+14-dec-02_10.01.55_488_22/FolderFolders_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+7
+1
+14-dec-02_10.01.55_552_24/14336100155~1.hda
+AutoInsert
+ecmtest2idcoraclecom16997
+3
+0
+14-dec-02_11.14.52_536_56/FolderFiles_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+2
+1
+14-dec-02_11.14.52_536_56/FolderFolders_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+5
+1
+14-dec-02_11.14.52_609_57/FolderFolders_arTable~1.hda
+AutoInsert
+ecmtest2idcoraclecom16997
+1
+1
+14-dec-02_11.14.52_609_58/14336111452~1.hda
+AutoInsert
+ecmtest2idcoraclecom16997
+2
+0
+14-dec-02_11.14.58_278_60/FolderFiles_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+1
+1
+14-dec-02_11.14.58_278_60/FolderFolders_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+1
+1
+14-dec-02_11.14.58_334_62/14336111458~1.hda
+AutoInsert
+ecmtest2idcoraclecom16997
+1
+0
+14-dec-02_13.26.40_202_16/FolderFiles_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+1
+1
+14-dec-02_13.26.40_202_16/FolderFolders_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+3
+1
+14-dec-02_13.26.46_276_19/FolderFiles_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+2
+1
+14-dec-02_13.26.46_276_19/FolderFolders_arTable~1.hda
+AutoDelete
+ecmtest2idcoraclecom16997
+4
+1
+@end
+Batch Name is: 14-dec-02_10.01.55_488_22/FolderFiles_arTable~1.hda
+######
+Batch Name is: 14-dec-02_10.01.55_488_22/FolderFolders_arTable~1.hda
+######
+Batch Name is: 14-dec-02_10.01.55_552_24/14336100155~1.hda
+######
+Batch Name is: 14-dec-02_11.14.52_536_56/FolderFiles_arTable~1.hda
+######
+Batch Name is: 14-dec-02_11.14.52_536_56/FolderFolders_arTable~1.hda
+######
+Batch Name is: 14-dec-02_11.14.52_609_57/FolderFolders_arTable~1.hda
+######
+Batch Name is: 14-dec-02_11.14.52_609_58/14336111452~1.hda
+######
+Batch Name is: 14-dec-02_11.14.58_278_60/FolderFiles_arTable~1.hda
+######
+Batch Name is: 14-dec-02_11.14.58_278_60/FolderFolders_arTable~1.hda
+######
+Batch Name is: 14-dec-02_11.14.58_334_62/14336111458~1.hda
+######
+Batch Name is: 14-dec-02_13.26.40_202_16/FolderFiles_arTable~1.hda
+######
+Batch Name is: 14-dec-02_13.26.40_202_16/FolderFolders_arTable~1.hda
+######
+Batch Name is: 14-dec-02_13.26.46_276_19/FolderFiles_arTable~1.hda
+######
+Batch Name is: 14-dec-02_13.26.46_276_19/FolderFolders_arTable~1.hda
+######
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_10.01.55_488_22/FolderFiles_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_10.01.55_488_22/FolderFiles_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_10.01.55_488_22/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_10.01.55_488_22/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_10.01.55_552_24/14336100155~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_10.01.55_552_24/14336100155~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.52_536_56/FolderFiles_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.52_536_56/FolderFiles_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.52_536_56/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.52_536_56/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.52_609_57/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.52_609_57/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.52_609_58/14336111452~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.52_609_58/14336111452~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.58_278_60/FolderFiles_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.58_278_60/FolderFiles_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.58_278_60/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.58_278_60/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_11.14.58_334_62/14336111458~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_11.14.58_334_62/14336111458~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_13.26.40_202_16/FolderFiles_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_13.26.40_202_16/FolderFiles_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_13.26.40_202_16/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_13.26.40_202_16/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_13.26.46_276_19/FolderFiles_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_13.26.46_276_19/FolderFiles_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=DELETE_BATCH_FILE
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+aBatchFile=14-dec-02_13.26.46_276_19/FolderFolders_arTable~1.hda
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=DELETE_BATCH_FILE
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+aBatchFile=14-dec-02_13.26.46_276_19/FolderFolders_arTable~1.hda
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@Properties LocalData
+IdcService=GET_BATCHFILES
+UserTimeZone=UTC
+UserDateFormat=iso8601
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+@end
+@Properties LocalData
+UserDateFormat=iso8601
+UserTimeZone=UTC
+ClientEncoding=UTF8
+IdcService=GET_BATCHFILES
+aArchiveName=OnlyFF
+IDC_Name=ecmtest2idcoraclecom16997
+dUser=weblogic
+refreshSubjects=
+blDateFormat=yyyy-MM-dd HH:mm:ssZ!tUTC!mAM,PM
+refreshMonikers=
+changedSubjects=
+refreshSubMonikers=
+blFieldTypes=xLibraryGUID bigtext,xPartitionId text,dInDate date,dMessage message,dCreateDate date,xWebFlag text,dReleaseDate date,StatusMessage message,xStorageRule text,xExternalDataSet bigtext,dOutDate date,xComments memo,xIdcProfile text
+changedMonikers=
+idcToken=
+IsJava=1
+localizedForResponse=1
+@end
+@ResultSet UserAttribInfo
+2
+dUserName
+AttributeInfo
+weblogic
+account,#none,15,account,#all,15,role,guest,15,role,authenticated,15,role,admin,15,role,sysmanager,15,role,refineryadmin,15,role,rmaadmin,15,role,pcmadmin,15,role,ermadmin,15
+@end
+@ResultSet BatchFiles
+5
+aBatchFile
+aState
+IDC_Name
+aNumDocuments
+aIsTableBatch
+@end

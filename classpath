@@ -1,0 +1,6 @@
+LIB=`pwd`/lib
+
+CLASSPATH=$CLASSPATH:$LIB/oracle.ucm.ridc-11.1.1.jar:$LIB/commons-codec-1.2.jar:$LIB/commons-httpclient-3.1.jar:$LIB/commons-logging-1.0.4.jar:.
+export CLASSPATH
+
+

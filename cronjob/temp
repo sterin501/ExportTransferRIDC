@@ -1,0 +1,13 @@
+#url=http://10.177.228.52:16997/cs/idcplg
+#url=http://10.177.228.52:16488/cs/idcplg
+url=http://10.184.36.140:16488/cs/idcplg
+user=weblogic
+password=welcome1
+#QueryText=dSecurityGroup <matches> `Public`
+#fileName=1.odt
+#fParentGUID=FLD_ROOTSD
+IDC_Name=ecmtest2idcoraclecom16997
+aArchiveName=OnlyFF
+aTargetArchive=ecmtest2idcoraclecom16487/foldjimpc
+#IDC_Name=Name=ecmtest2idcoraclecom16487
+#aArchiveName=target
